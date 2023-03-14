@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'botones';
+    src: url(/fonts/Homer_Simpson_Revised.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color:rgb(238, 221, 70);
+    color: #000000;
+}
+
+navbar-expand-lg bg-body-tertiary {
+    background-color: #000000;
+}
+
+.navnav {
+    color: white;
+}
+
+.siguiente{
+    border-radius: 5px;
+    padding: 10px 7px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    margin: 5px;
+    font-size: 3rem;
+    font-family: 'botones';
+  }
+
+  iframe {
+    display: flex;
+    align-items: center;
+  }
+
+  .botonesuno {
+    display: flex;
+    justify-content: center;
+  }
