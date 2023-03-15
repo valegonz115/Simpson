@@ -14,7 +14,7 @@
   <body>
     <div class="container-fluid uno">
         <div class="row"> 
-          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
             <div class="container-fluid">
               <img src="/assets/The_Simpsons_yellow_logo.svg.png" width="100px">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,6 +36,8 @@
                     </ul>
                   </li>
                 </ul>
+                <video width="150" height="40" controls autoplay loop="loop">
+                  <source src="audio/intro.mp4" type="audio/mp4">
               </div>
             </div>
           </nav>
@@ -64,32 +66,73 @@
           </div>
         </div>
         <div class="container-fluid">
-        <div class="row">
-            <div class="col-5">
+        <div class="row" style="border-style: dotted; border-width: 7px;">
+            <section class="col-sm-12 col-md-12 col-lg-5 col-xl-5 col xxl-5">
                 <img src="/assets/5a0c40a65a997e1c2cea116c.png"
-                class="animate__animated animate__backInLeft" width="600px" animate__bounceInLeft>
-                <p>Homer Jay Simpson (Homero J. Simpson en Hispanoamérica y Homer J. Simpson en España) es un personaje ficticio protagonista de la serie de televisión de dibujos animados Los Simpson. Es el padre de la familia protagonista y uno de los personajes centrales más importantes de la serie.</p>
-            </div>
-            <div class="col-7">
-              <section>
-                <iframe width="100%" height="700" src="https://www.youtube.com/embed/QFamUvutcXw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                class="animate__animated animate__backInLeft" width="600px" animate__bounceInLeft alt="Homero" id="Homero">
+                <article>
+                <p class="datos" style="border-radius: 10px; background-color: white;">Homer Jay Simpson (Homero J. Simpson en Hispanoamérica y Homer J. Simpson en España) es un personaje ficticio protagonista de la serie de televisión de dibujos animados Los Simpson. Es el padre de la familia protagonista y uno de los personajes centrales más importantes de la serie.</p>
+                </article>
             </section>
+            <aside class="col-sm-12 col-md-12 col-lg-7 col-xl-7 col xxl-7">
+                <iframe width="100%" height="700" src="https://www.youtube.com/embed/QFamUvutcXw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               <section class="botonesuno">
-                <a class="siguiente" href="https://es.stackoverflow.com" target="_blank">Siguiente</a>
+                <a class="siguiente" href="#Marge" target="_self"><img src="assets/avanzar.png" width="170px"></a>
               </section>
-              </div>
+            </aside>
             </div>
         </div>
         <div class="row">
-            <div class="col-6"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nulla molestias quisquam totam. Necessitatibus hic molestias fugit ex eius tenetur veritatis quia quos, ab perferendis obcaecati nisi iusto modi corporis?</p></div>
-            <div class="col-6"><img src="assets/5a0c40a65a997e1c2cea116c.png" width="600px"></div>
+            <article class="col-6"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nulla molestias quisquam totam. Necessitatibus hic molestias fugit ex eius tenetur veritatis quia quos, ab perferendis obcaecati nisi iusto modi corporis?</p>
+              <section class="botonesuno">
+                <a class="siguiente" href="#Homero" target="_self"><img src="assets/atras.png" width="170px"></a><a class="siguiente" href="#Marge" target="_self"><img src="assets/avanzar.png" width="170px"></a>
+              </section>
+            </article>
+            <div class="col-6"><img src="assets/marge.png" width="100%" alt="Marge" id="Marge"></div>
         </div>
+        <div class="row" style="border-style: dotted; border-width: 7px;">
+          <section class="col-sm-12 col-md-12 col-lg-5 col-xl-5 col xxl-5">
+              <img src="assets/bart.png"
+              class="animate__animated animate__backInLeft" width="600px" alt="Bart" id="Bart" animate__bounceInLeft>
+              <article>
+              <p class="datos" style="border-radius: 10px; background-color: white;">Homer Jay Simpson (Homero J. Simpson en Hispanoamérica y Homer J. Simpson en España) es un personaje ficticio protagonista de la serie de televisión de dibujos animados Los Simpson. Es el padre de la familia protagonista y uno de los personajes centrales más importantes de la serie.</p>
+              </article>
+          </section>
+          <aside class="col-sm-12 col-md-12 col-lg-7 col-xl-7 col xxl-7">
+              <iframe width="100%" height="700" src="https://www.youtube.com/embed/QFamUvutcXw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <section class="botonesuno">
+              <a class="siguiente" href="#Marge" target="_self"><img src="assets/atras.png" width="170px"></a><a class="siguiente" href="#Lisa" target="_blank"><img src="assets/avanzar.png" width="170px"></a>
+            </section>
+          </aside>
+          </div>
+      <div class="row">
+        <article class="col-6"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nulla molestias quisquam totam. Necessitatibus hic molestias fugit ex eius tenetur veritatis quia quos, ab perferendis obcaecati nisi iusto modi corporis?</p>
+          <section class="botonesuno">
+            <a class="siguiente" href="#Bart" target="_self"><img src="assets/atras.png" width="170px"></a><a class="siguiente" href="#Maggie" target="_self"><img src="assets/avanzar.png" width="170px"></a>
+          </section>
+        </article>
+        <div class="col-6"><img src="assets/lisa.png" width="500px" alt="Lisa" id="Lisa"></div>
+    </div>
+    <div class="row" style="border-style: dotted; border-width: 7px;">
+      <section class="col-sm-12 col-md-12 col-lg-5 col-xl-5 col xxl-5">
+          <img src="assets/maggie.png"
+          class="animate__animated animate__backInLeft" width="600px" alt="Maggie" id="Maggie" animate__bounceInLeft>
+          <article>
+          <p class="datos" style="border-radius: 10px; background-color: white;">Homer Jay Simpson (Homero J. Simpson en Hispanoamérica y Homer J. Simpson en España) es un personaje ficticio protagonista de la serie de televisión de dibujos animados Los Simpson. Es el padre de la familia protagonista y uno de los personajes centrales más importantes de la serie.</p>
+          </article>
+      </section>
+      <aside class="col-sm-12 col-md-12 col-lg-7 col-xl-7 col xxl-7">
+          <iframe width="100%" height="700" src="https://www.youtube.com/embed/QFamUvutcXw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <section class="botonesuno">
+          <a class="siguiente" href="#Lisa" target="_self"><img src="assets/atras.png" width="170px"></a><a class="siguiente" href="#Lisa" target="_blank"></a>
+        </section>
+      </aside>
+      </div>
         <div class="row">
             <footer class="col-12 d-flex justify-content-center align-items-center">
                 <img src="/assets/cocacola.svg" width="120px" class="p-4 m-4">
             <p>AAAAAAAAAA</p>
             </footer> </div></div>
-    </div>
     <script src="js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
