@@ -19,11 +19,6 @@ video {
     opacity: 0.3
 }
 
-  iframe {
-    display: flex;
-    align-items: center;
-  }
-
   .botonesuno {
     display: flex;
     justify-content: center;
@@ -33,4 +28,8 @@ video {
     background-color: white;
     border-radius: 15px;
     font-size: 18px;
+  }
+
+  img {
+    justify-content: center;
   }
