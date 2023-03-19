@@ -1,6 +1,11 @@
 @font-face {
-    font-family: 'botones';
-    src: url(/fonts/Homer_Simpson_Revised.ttf);
+    font-family: 'parrafos';
+    src: url(../fonts/Homer_Simpson_Revised.ttf);
+}
+
+@font-face {
+  font-family: 'titulo';
+  src: url(../fonts/Simpsonfont\ DEMO.otf)
 }
 
 * {
@@ -13,10 +18,33 @@ body {
     height: 100vh;
     background-color: #FFD90F;
     color: #000000;
+    cursor: url(../assets/rosquilla.jpg);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 2rem
 }
 
 video {
     opacity: 0.3
+}
+
+h1 {
+  font-family: 'titulo';
+  color: rgb(0, 83, 160);
+}
+
+p {
+  font-family: 'parrafos';
+  font-size: 25px
+}
+
+.r {
+  font-family: 'parrafos';
+  color: white;
+  font-size: 35px
 }
 
   .botonesuno {
@@ -24,12 +52,11 @@ video {
     justify-content: center;
   }
 
-  .datos {
-    background-color: white;
-    border-radius: 15px;
-    font-size: 18px;
+  .zoom {
+    transition: transform .2s;
+    margin: 0 auto
   }
 
-  img {
-    justify-content: center;
+  .zoom:hover {
+    transform: scale(1.2)
   }
